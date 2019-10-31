@@ -1,0 +1,60 @@
+body{
+    background: url(images/coffeeBean.jpg) rgb(250, 220, 52);   
+}
+
+.navbar{
+    height: 30px;
+    margin: 0 20% 0 20%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.navbar_item{
+    font-size: 2em;
+    padding-top: 3%;
+    color: rgb(250, 220, 52);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.pancakes{
+    grid-column: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+.cupcake{
+    grid-column: 2/3;
+    height: 100%;
+    width: 100%;
+}
+
+.coffee{
+    grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+}
+
+.coffeeBar{
+    grid-column: 4/5;
+    height: 100%;
+    width: 100%;
+}
+
+.btmText{
+    font-family: 'Raleway', 'sans-serif';
+    position: absolute;
+    bottom: 45%;
+    color: rgb(250, 220, 52);
+    padding: 1em;
+}
+/* .logo{
+    height: 4em;
+    width: 4em;
+} */
