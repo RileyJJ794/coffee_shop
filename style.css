@@ -1,5 +1,12 @@
-body{
-    background: url(images/coffeeBean.jpg) rgb(250, 220, 52);   
+body{ 
+    margin: 0;
+}
+
+.header{
+    background: url(images/coffeeBean.jpg) linen;  
+    background-position: center;
+    background-size: 100%;
+    height: 37em;
 }
 
 .navbar{
@@ -19,40 +26,44 @@ body{
 
 .footer{
     position: absolute;
-    bottom: 0px;
+    bottom: 0em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .pancakes{
     grid-column: 1/2;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
 
 .cupcake{
     grid-column: 2/3;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
 
 .coffee{
     grid-column: 3/4;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
 
 .coffeeBar{
     grid-column: 4/5;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
+}
+
+img{
+    align-self: center;
 }
 
 .btmText{
     font-family: 'Raleway', 'sans-serif';
-    position: absolute;
-    bottom: 45%;
     color: rgb(250, 220, 52);
+    text-align: center;
     padding: 1em;
+    bottom: 0em;
 }
 /* .logo{
     height: 4em;
