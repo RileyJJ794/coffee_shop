@@ -2,11 +2,12 @@ body{
     margin: 0;
 }
 
+
 .header{
     background: url(images/coffeeBean.jpg) linen;  
     background-position: center;
     background-size: 100%;
-    height: 37em;
+    height: 36em;
 }
 
 .navbar{
@@ -24,46 +25,55 @@ body{
     color: rgb(250, 220, 52);
 }
 
+.middle{
+    text-align: center;
+    padding: 7%;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 7em;
+    color: rgb(78, 35, 35);
+}
+
 .footer{
-    position: absolute;
     bottom: 0em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.pancakes{
-    grid-column: 1/2;
-    height: 90%;
-    width: 90%;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(250, 220, 52);
 }
 
-.cupcake{
-    grid-column: 2/3;
-    height: 90%;
-    width: 90%;
+
+@media screen and (max-width: 800px){
+    .navbar{
+        font-size: 50%;
+    }
+
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.coffee{
-    grid-column: 3/4;
-    height: 90%;
-    width: 90%;
+.figures{
+    align-items: center;
 }
 
-.coffeeBar{
-    grid-column: 4/5;
-    height: 90%;
-    width: 90%;
-}
-
-img{
-    align-self: center;
+.image{
+    border-radius: 100%;
+    padding-top: 2em;
+    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height: 10em;
+    width: 10em;
 }
 
 .btmText{
-    font-family: 'Raleway', 'sans-serif';
-    color: rgb(250, 220, 52);
     text-align: center;
+    font-family: 'Raleway', 'sans-serif';
+    color: linen;
     padding: 1em;
-    bottom: 0em;
 }
 /* .logo{
     height: 4em;
