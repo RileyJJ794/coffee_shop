@@ -22,7 +22,7 @@ body{
 .navbar_item{
     font-size: 2em;
     padding-top: 3%;
-    color: rgb(250, 220, 52);
+    color: #983628;
 }
 
 .middle{
@@ -30,7 +30,7 @@ body{
     padding: 7%;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 7em;
-    color: rgb(78, 35, 35);
+    color: rgb(250, 220, 52);
 }
 
 .footer{
@@ -39,7 +39,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    background-color: rgb(250, 220, 52);
+    background-color: rgb(78, 35, 35);
 }
 
 
@@ -55,6 +55,7 @@ body{
 
 .figures{
     align-items: center;
+    display: inline-block;
 }
 
 .image{
@@ -64,15 +65,22 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:50%;
     height: 10em;
-    width: 10em;
+    width: 15em;
+    opacity: 1;
+    transition: 1s;
+}
+
+.image:hover{
+    opacity: 0.25;
 }
 
 .btmText{
+    position: absolute;
+    bottom: 0.1em;
     text-align: center;
     font-family: 'Raleway', 'sans-serif';
-    color: linen;
+    color: rgb(250, 220, 52);
     padding: 1em;
 }
 /* .logo{
