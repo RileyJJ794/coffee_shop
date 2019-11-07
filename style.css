@@ -71,6 +71,7 @@ body{
     transition: 1s;
 }
 
+
 .image:hover{
     opacity: 0.25;
 }
