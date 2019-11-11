@@ -1,10 +1,12 @@
 body{ 
-    margin: 0;
+    margin: 0;   
+    background-image: linear-gradient(
+        to bottom, transparent, rgb(78, 35, 35)
+      ), url("images/coffeeBean.jpg");
 }
 
 
-.header{
-    background: url(images/coffeeBean.jpg) linen;  
+.header{    
     background-position: center;
     background-size: 100%;
     height: 36em;
@@ -31,6 +33,7 @@ body{
     font-family: 'Nothing You Could Do', cursive;
     font-size: 7em;
     color: rgb(250, 220, 52);
+    text-shadow: 2px 2px rgb(192, 169, 40);
 }
 
 .footer{
@@ -39,7 +42,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    background-color: rgb(78, 35, 35);
+    background-image: linear-gradient(to bottom, rgba(78,35,35,0.03), rgba(78,35,35,1));
 }
 
 
