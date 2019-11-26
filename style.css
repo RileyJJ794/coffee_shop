@@ -46,15 +46,6 @@ body{
 }
 
 
-@media screen and (max-width: 1020px){
-    .navbar{
-        font-size: 50%;
-    }
-
-    .footer{
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
 .figures{
     align-items: center;
@@ -92,3 +83,32 @@ body{
     height: 4em;
     width: 4em;
 } */
+
+@media screen and (max-width: 1020px){
+    .navbar{
+        font-size: 50%;
+    }
+
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .header{
+        font-size: 50%;
+    }
+
+    .footer{
+        grid-template-columns: 1fr;
+    }
+
+    .image{
+        height: 5em;
+        width: 7.5em;
+    }
+
+    .btmText{
+        font-size: 50%;
+    }
+}
