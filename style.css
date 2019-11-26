@@ -46,7 +46,7 @@ body{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1020px){
     .navbar{
         font-size: 50%;
     }
@@ -72,6 +72,7 @@ body{
     width: 15em;
     opacity: 1;
     transition: 1s;
+    box-shadow: 0px 5px 3px rgb(63, 16, 16);
 }
 
 
@@ -80,7 +81,7 @@ body{
 }
 
 .btmText{
-    position: absolute;
+    position: relative;
     bottom: 0.1em;
     text-align: center;
     font-family: 'Raleway', 'sans-serif';
